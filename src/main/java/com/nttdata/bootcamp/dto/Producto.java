@@ -2,7 +2,7 @@ package com.nttdata.bootcamp.dto;
 
 public class Producto {
 
-	public int productId;
+	public Integer productId;
 	public String channel;
 	public String port;
 	public String productName;
@@ -13,7 +13,7 @@ public class Producto {
 	}
 
 
-	public void setProductId(int productId) {
+	public void setProductId(Integer productId) {
 		this.productId = productId;
 	}
 
